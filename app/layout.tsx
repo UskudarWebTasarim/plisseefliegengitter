@@ -3,16 +3,20 @@ import "./globals.css";
 import { LanguageProvider } from "@/lib/contexts/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "Plissee Fliegengitter: Cleverer Fensterschutz",
-  description: "Plissee Fliegengitter: Cleverer Fensterschutz für Ihr Zuhause. Einfach montiert, langlebig und stilvoll - genießen Sie insektenfreie Fenster ohne Kompromisse.",
-  keywords: "Plissee Fliegengitter, Insektenschutz, Fliegengitter, Fenster Gitter, Sineklik, Plise Perde, Jaluzi Perde, Zip Perde, Fenstereinrichtung",
+  title: "Fliegengitter Deutschland: Cleverer Fensterschutz",
+  description: "Fliegengitter Deutschland: Cleverer Insektenschutz für Ihr Zuhause. Einfach montiert, langlebig und stilvoll - genießen Sie insektenfreie Fenster ohne Kompromisse.",
+  keywords: "Fliegengitter Deutschland, Plissee Fliegengitter Deutschland, Plissee Storen Deutschland, Insektenschutz Deutschland, Almanya sineklik, Almanya plise sineklik, Almanya plise perde, Fenster Gitter, Sineklik, Plise Perde",
   metadataBase: new URL("https://plisseefliegengitter.de"),
   alternates: {
     canonical: "https://plisseefliegengitter.de",
+    languages: {
+      'de': 'https://plisseefliegengitter.de',
+      'tr': 'https://plisseefliegengitter.de',
+    },
   },
   openGraph: {
-    title: "Plissee Fliegengitter - Premium Insektenschutz",
-    description: "Professionelle Insektenschutzlösungen für Fenster und Türen. Hochwertige Qualität aus der Türkei.",
+    title: "Fliegengitter Deutschland: Cleverer Fensterschutz",
+    description: "Fliegengitter Deutschland: Cleverer Insektenschutz für Ihr Zuhause. Einfach montiert, langlebig und stilvoll - genießen Sie insektenfreie Fenster ohne Kompromisse.",
     url: "https://plisseefliegengitter.de",
     siteName: "Plissee Fliegengitter",
     locale: "de_DE",
@@ -34,8 +38,9 @@ export const metadata: Metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Plissee Fliegengitter",
-  "description": "Hochwertige Plissee Fliegengitter, Sineklik, Plise Perde, Jaluzi Perde und Zip Perde. Made in Turkey, direkt zu Ihnen nach Europa.",
+  "name": "Plissee Fliegengitter Deutschland",
+  "alternateName": "Almanya Sineklik",
+  "description": "Fliegengitter Deutschland: Cleverer Insektenschutz für Ihr Zuhause. Hochwertige Plissee Fliegengitter, Sineklik, Plise Perde für Deutschland, Österreich, Schweiz.",
   "url": "https://plisseefliegengitter.de",
   "telephone": "+90 540 336 3873",
   "email": "info@fenetresystems.com",
@@ -45,12 +50,30 @@ const schema = {
     "addressCountry": "DE"
   },
   "areaServed": [
-    "DE",
-    "AT",
-    "CH",
-    "BE",
-    "NL",
-    "FR"
+    {
+      "@type": "Country",
+      "name": "Deutschland"
+    },
+    {
+      "@type": "Country",
+      "name": "Österreich"
+    },
+    {
+      "@type": "Country",
+      "name": "Schweiz"
+    },
+    {
+      "@type": "Country",
+      "name": "Belgien"
+    },
+    {
+      "@type": "Country",
+      "name": "Niederlande"
+    },
+    {
+      "@type": "Country",
+      "name": "Frankreich"
+    }
   ],
   "priceRange": "€€",
   "openingHours": "Mo-Fr 09:00-18:00",
@@ -61,6 +84,15 @@ const schema = {
     "https://www.linkedin.com/company/fenetresystems/",
     "https://tr.pinterest.com/fenetresystems/",
     "https://www.youtube.com/@FenetreSystems"
+  ],
+  "keywords": [
+    "Fliegengitter Deutschland",
+    "Plissee Fliegengitter Deutschland",
+    "Plissee Storen Deutschland",
+    "Insektenschutz Deutschland",
+    "Almanya sineklik",
+    "Almanya plise sineklik",
+    "Almanya plise perde"
   ]
 };
 

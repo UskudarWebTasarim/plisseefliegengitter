@@ -1,0 +1,6 @@
+# robots.txt for plisseefliegengitter.de
+
+User-agent: *
+Allow: /
+
+Sitemap: https://plisseefliegengitter.de/sitemap.xml

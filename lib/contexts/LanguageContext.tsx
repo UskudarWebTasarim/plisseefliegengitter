@@ -21,9 +21,9 @@ const translations = {
     contact: "Kontakt",
     
     // Hero
-    heroTitle: "Plissee Fliegengitter",
+    heroTitle: "Fliegengitter Deutschland",
     heroSubtitle: "Premium Insektenschutz für Ihr Zuhause",
-    heroDescription: "Hochwertige Fliegengitter aus Turkey. Direkt zu Ihnen nach Deutschland, Österreich, Schweiz, Belgien, Niederlande und Frankreich.",
+    heroDescription: "Hochwertige Fliegengitter aus der Türkei. Direkt zu Ihnen nach Deutschland, Österreich, Schweiz, Belgien, Niederlande und Frankreich.",
     heroCta: "Kostenloses Angebot",
     heroCtaSecondary: "Mehr erfahren",
     
@@ -100,7 +100,7 @@ const translations = {
     contact: "İletişim",
     
     // Hero
-    heroTitle: "Plissee Fliegengitter",
+    heroTitle: "Almanya Sineklik",
     heroSubtitle: "Eviniz İçin Premium Böcek Koruması",
     heroDescription: "Türkiye'de üretilen yüksek kaliteli sineklik. Almanya, Avusturya, İsviçre, Belçika, Hollanda ve Fransa'ya doğrudan teslim.",
     heroCta: "Ücretsiz Teklif",
